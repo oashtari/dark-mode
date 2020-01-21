@@ -9,13 +9,6 @@ const Navbar = () => {
     setDarkMode(!darkMode);
   };
 
-  // function switchMode() {
-  //   var element = document.getElementByClassName("body");
-  //   console.log('hi');
-  //   element.classList.add("dark-mode");
-  // }
-  // switchMode();
-
   return (
     <nav className="navbar">
       <h1>Crypto Tracker</h1>
